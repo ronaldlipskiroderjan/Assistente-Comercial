@@ -1,0 +1,10 @@
+# requirements.txt
+# Bibliotecas Python necessárias para o Assistente para Pequenos Empreendedores
+
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+APScheduler==3.10.4
+python-dotenv==1.0.0
+SQLAlchemy==2.0.29 
+Flask-Cors==4.0.0
+Flask-Login==0.6.3
