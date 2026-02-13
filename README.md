@@ -1,27 +1,27 @@
-Assistente Comercial - Sistema de Gestão (CRM & ERP)
-Sistema de gestão robusto desenvolvido para pequenos empreendedores, unindo uma API RESTful e uma Interface de Linha de Comando (CLI). O projeto automatiza o ciclo completo de vendas, desde o cadastro de clientes até a geração de métricas financeiras semanais.
+📊 Assistente Comercial: Sistema de Gestão CRM & ERP
+Este projeto é uma solução completa de Back-office desenvolvida em Python para automatizar o gerenciamento de pequenos negócios. Ele integra uma API RESTful robusta com uma Interface de Linha de Comando (CLI) interativa, permitindo o controle total sobre clientes, pedidos e fluxos financeiros.
 
-🚀 Funcionalidades Principais
-Gestão de Clientes (CRM): CRUD completo com histórico de pedidos e sistema de anotações dinâmicas por cliente.
+🚀 Diferenciais Técnicos
+Arquitetura Modular (MVC): Utiliza Blueprints do Flask para separar as responsabilidades de Autenticação, Clientes, Pedidos e Finanças.
 
-Controle de Pedidos: Gerenciamento de status (pendente, pago, entregue) e monitoramento automático de prazos de entrega.
+Inteligência Financeira: Processamento de pagamentos com precisão decimal e algoritmos para métricas de lucro e serviços mais vendidos.
 
-Módulo Financeiro: Registro de pagamentos com precisão decimal, exportação de dados para CSV e geração de recibos.
+Automação de Tarefas: Integração com APScheduler para execução de rotinas em background, como lembretes de prazos e relatórios semanais.
 
-Automação (Background Tasks): Scheduler configurado para envio de relatórios e verificações diárias de pendências.
+Segurança de Dados: Hashing de senhas scrypt via Werkzeug e validações de integridade para garantir a proteção de informações sensíveis.
 
-Segurança Avançada: Autenticação de usuários com hashing de senhas scrypt via Werkzeug.
+Gestão de Prazos: Monitoramento dinâmico de datas de entrega com alertas para pedidos próximos do vencimento.
 
 🛠️ Tecnologias Utilizadas
 Linguagem: Python 3.
 
-Framework Web: Flask (API RESTful).
+Framework: Flask.
 
-Banco de Dados: SQLite (Desenvolvimento) e suporte a PostgreSQL.
+ORM: SQLAlchemy com suporte a SQLite e PostgreSQL.
 
-ORM: Flask-SQLAlchemy para modelagem e integridade referencial.
+Agendador: APScheduler.
 
-Agendador: APScheduler para tarefas em segundo plano.
+Segurança: Werkzeug (Security & Auth).
 
 📁 Estrutura do Projeto
 main.py: Interface interativa via terminal (CLI) para operação do sistema.
@@ -50,3 +50,4 @@ Ou use a CLI:
 Bash
 
 python main.py
+
